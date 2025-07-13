@@ -93,7 +93,6 @@ class Brain:
 
         return np.array(advantages)
 
-    @mean_of_list
     def train(self, states, actions, int_rewards, ext_rewards, dones,
               int_values, ext_values, log_probs, next_int_values,
               next_ext_values, total_next_obs, hidden_states):
